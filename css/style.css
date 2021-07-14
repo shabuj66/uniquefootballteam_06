@@ -64,7 +64,8 @@ img{
 
 /* header css start */
 header{
-   background-image: linear-gradient(to left bottom, #a02575, #8f2481, #79298d, #5a2f98, #2535a0);
+   background-image: linear-gradient(to right top, #01164d, #2c1d5e, #4e226c, #702577, #92287f);
+   
    padding: 70px 0;
 }
 .header-area{
@@ -91,7 +92,7 @@ header{
 
 /* plaers area css start  */
 #player-sec{
-   background: #3e329c;
+   background:  #01164d;
 }
 .players-area{
    padding-top: 70px ;
@@ -129,7 +130,7 @@ header{
 }
 /* latest news css start  */
 #news-sec{
-   background: #3e329c;
+   background:  #01164d;
 }
 .news-area{
    padding: 50px 0;
@@ -178,7 +179,7 @@ header{
 /* latest news css ends  */
 /* subscribe-area css start  */
 #sub-sec{
-   background-image: linear-gradient(to left bottom, #a02575, #8f2481, #79298d, #5a2f98, #2535a0);
+   background-image: linear-gradient(to right top, #01164d, #2c1d5e, #4e226c, #702577, #92287f);
    
 }
 .subscribe-area {  
@@ -223,18 +224,16 @@ input {
 /* footer css start  */
 footer{
      text-align: center;
-   padding-top: 60px;
+   padding:60px 0 30px 0 ;
+  background:  #01164d;
 }
-.footer-top img{
-   max-width: 100%;
+.footer-top img {
+   width: 220px;
+   height: auto;
+   margin: 0 auto;
 }
-
-.socail-icon ul{   
-
-}
-.socail-icon ul li{
-   
-   margin-right: 20px ;
+.socail-icon ul li{   
+   margin-right: 15px ;
 
 }
 .socail-icon ul li a{  
@@ -242,23 +241,24 @@ footer{
    height: 50px;
    width: 50px;
    line-height: 50px;
-   background: #10437a; 
-   color: #fff;
+   background: #fff; 
+   color: #10437a;
    font-size: 25px;  
    border-radius: 50%;
    transition: 0.5s;
 }
 .socail-icon ul li a:hover{
-   background: #fff;
-   color:#10437a ;
+   background: #e02c6d;
+   color:#fff ;
    transform: rotate(720deg);
 }
-footer p{
+footer p{   
    font-size: 16px;
    text-transform: capitalize;
    font-weight: 500;
    letter-spacing: 1px;
    padding-top: 10px;
+   color: #fff;
 }
 /* footer css ends  */
 
