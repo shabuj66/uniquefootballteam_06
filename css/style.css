@@ -1,0 +1,21 @@
+/* google fonts */
+
+
+/* common style */
+body{
+   margin: 0;
+   padding: 0;
+
+}
+ul{
+   list-style: none;
+}
+li{
+   display: inline-block;
+}
+a{
+   text-decoration: none;
+}
+.container{
+   max-width: 870px;
+}
