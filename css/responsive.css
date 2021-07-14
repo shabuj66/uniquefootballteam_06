@@ -49,6 +49,10 @@
    font-size: 18px;
    margin-bottom: 10px;
 }
+.player { 
+   padding: 0 20px;
+   
+}
 
 .player p{
    font-size: 14px;
@@ -56,6 +60,7 @@
    color: rgb(199, 193, 193);
 
 }
+
 
 /*========================= news are ====================== */
 #news-sec {
@@ -71,11 +76,10 @@
    padding-bottom: 0;
    color: #000000;
 }
-
-.latest-news{  
-   grid-template-columns: repeat(1, 1fr); 
-   grid-row-gap: 30px; 
-   
+.latest-news {
+   grid-template-columns: repeat(1, 1fr);
+   grid-row-gap: 30px;
+   padding: 0 20px;
 }
 .news1-img img{
    border-radius: 5px;
@@ -99,7 +103,6 @@
    color: #ccc0b9;
    padding-bottom: 8px;
 }
-
 /*==========================subscribe form ========================*/
 #sub-sec {
    padding: 35px 0;
@@ -141,8 +144,7 @@ footer {
 footer p{
    font-size: 16px;   
    padding-top: 10px;
-} 
-  
+}   
 }
 /*=========================Tab Device ======================== */
 @media (min-width: 576px) and (max-width: 768px){
