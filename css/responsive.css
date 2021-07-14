@@ -1,4 +1,4 @@
-/* --------------Mobile Device --------------------- */
+/*============================= Mobile Device =============================== */
  @media (max-width: 575.98px){
    header{      
       padding: 30px 0;
@@ -33,7 +33,7 @@
    }
 
    
-/* plaers area css start  */
+/*=====================plaers area css start============================== */
 #player-sec{
    background: #fff;
 }
@@ -57,7 +57,7 @@
 
 }
 
-/* ------------news are -------------- */
+/*========================= news are ====================== */
 #news-sec {
    background: #fff;
    padding-bottom: 25px;
@@ -100,7 +100,7 @@
    padding-bottom: 8px;
 }
 
-/*---------- subscribe form ----------- */
+/*==========================subscribe form ========================*/
 #sub-sec {
    padding: 35px 0;
 }
@@ -108,9 +108,6 @@
    padding-top: 35px;
    padding-bottom: 60px;
 }
-.subscribe-form{
-
-}   
 .subscribe-form h3 {
    font-size: 19px;
 }
@@ -126,7 +123,7 @@ input {
    font-size: 16px;
    margin-top: 20px;
 }
-/* --------footer area--------- */
+/* ========================footer area =========================== */
 footer {
    padding-top: 25px;
 }
@@ -147,9 +144,9 @@ footer p{
 } 
   
 }
-/* ---------------Tab Device ---------------------- */
+/*=========================Tab Device ======================== */
 @media (min-width: 576px) and (max-width: 768px){
-   /* ------------header area start ----------- */
+   /* =============== header area start========================== */
    header{     
       padding: 40px 0;
    }
@@ -161,7 +158,7 @@ footer p{
   .header-title a {   
    margin-left: 20px;
 }
-/* ---------players area start ----------------- */
+/* ========================== players area start ===================== */
 .players {   
    grid-template-columns: repeat(2, 1fr);
    grid-gap: 20px;
@@ -171,7 +168,7 @@ footer p{
    padding-top: 40px;
    padding-bottom: 25px;
 }
-/* --------------news area start ------------------ */
+/* -========================== news area start ====================== */
 .latest-news {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
@@ -188,7 +185,7 @@ footer p{
    padding-top: 25px;
    padding-left: 0px;
 }
-/* -----------------subscribe area start ------------------ */
+/* ========================= subscribe area start ==================== */
 .subscribe-area {   
    padding-top: 40px;
    padding-bottom: 70px;
