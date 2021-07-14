@@ -1,0 +1,137 @@
+
+ @media only screen and  (max-width: 520px){
+   header{      
+      padding: 30px 0;
+   }
+   .header-area{
+      flex-direction: column;
+   }
+   .header-title {
+      width: 100%;
+      padding-top: 0px;
+      text-align: center;     
+      padding-bottom: 40px;
+  }
+   .header-title h1 {      
+      font-size: 20px;
+      
+   }
+   .header-title a{
+      display: inline-block;
+      background: #e02c6d;
+      color: #fff;
+      font-size: 16px;
+      text-transform: capitalize;
+      padding: 10px 20px;
+      position: relative;
+      transition: 0.5s;  
+   
+   }  
+   .header-img{
+      text-align: center;
+      margin-left: 25%;
+   }
+
+   
+/* plaers area css start  */
+.players-area{
+   padding-top: 70px ;
+   padding-bottom: 35px;
+}
+.players{  
+   grid-template-columns: repeat(1, 1fr);
+   
+}
+.player-title {
+   font-size: 18px;
+   margin-bottom: 10px;
+}
+
+.player p{
+   font-size: 14px;
+   line-height: 1.7em;
+   color: rgb(199, 193, 193);
+
+}
+
+/* ------------news are -------------- */
+.news-area {
+   padding: 15px 0;
+}
+.news-area h2 {
+   margin: 8px 0;
+   font-size: 20px;
+   padding-bottom: 0;
+}
+
+.latest-news{  
+   grid-template-columns: repeat(1, 1fr); 
+   grid-row-gap: 30px; 
+   
+}
+.news1-img img{
+   border-radius: 5px;
+   
+}
+.news1 {
+   flex-direction: column;
+   padding-top: 15px;
+}
+.news1-info {
+   padding-left: 5px;
+}
+.news1-info h3 {
+   margin-top: 16px;
+   font-size: 18px;   
+}
+.news1-info p {
+   font-size: 16px;
+   line-height: 21px;
+   color: #ccc0b9;
+   padding-bottom: 8px;
+}
+
+/*---------- subscribe form ----------- */
+#sub-sec {
+   padding: 35px 0;
+}
+.subscribe-area {   
+   padding-top: 35px;
+   padding-bottom: 60px;
+}
+.subscribe-form{
+
+}   
+.subscribe-form h3 {
+   font-size: 19px;
+}
+input {
+   width: 40%;
+   padding: 15px 10px;  
+  
+}
+.sub-btn {
+   width: 22%;   
+   font-size: 16px;
+  
+}
+/* --------footer area--------- */
+footer{   
+   padding-top:0;
+}
+
+.socail-icon ul li a{  
+   display: block;
+   height: 40px;
+   width: 40px;
+   line-height: 40px;   
+   font-size: 20px;  
+
+}
+footer p{
+   font-size: 16px;   
+   padding-top: 10px;
+}   
+   
+  
+}
