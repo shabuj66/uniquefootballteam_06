@@ -129,6 +129,65 @@ header{
    color: rgb(199, 193, 193);
 
 }
+/* latest news css start  */
+.news-area{
+   padding-top: 70px;
+}
+.news-area h2 {
+   text-align: center;
+   padding-bottom: 30px;
+   text-transform: capitalize;
+   letter-spacing: 1px;
+   font-size: 30px;
+   font-weight: 600;
+}
+
+.latest-news{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-column-gap: 20px;
+   grid-row-gap: 40px;
+   /* display: flex;
+   justify-content: space-around; */  
+   /* align-items: center;  */
+   
+}
+.news1-img img{
+   border-radius: 5px;
+   
+}
+.news1{
+   display: flex;
+   padding-top: 30px;
+   
+}
+.news1-info {
+   padding-left: 20px;
+}
+.news1-info h3 {
+   margin-top: 5px;
+   font-size: 20px;
+   font-weight: 600;
+   text-transform: capitalize;
+}
+.news1-info p {
+   font-size: 16px;
+   line-height: 21px;
+   color: #ccc0b9;
+}
+.news1-info a {
+   
+   background: #e02c6d;
+   color: #fff;
+   font-size: 16px;
+   padding: 10px 20px;
+   text-transform: capitalize;
+}
+
+
+/* latest news css ends  */
+
+
 
 
 
