@@ -72,8 +72,7 @@ img{
 }
 /*=================== header css start========================= */
 header{
-   background-image: linear-gradient(to right top, #01164d, #2c1d5e, #4e226c, #702577, #92287f);
-   
+   background-image: linear-gradient(to right top, #01164d, #2c1d5e, #4e226c, #702577, #92287f);   
    padding: 70px 0;
    animation-name: example;
    animation-duration: 4s; 
