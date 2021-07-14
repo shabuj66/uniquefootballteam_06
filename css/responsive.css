@@ -1,5 +1,5 @@
 
- @media only screen and  (max-width: 520px){
+ @media (max-width: 575.98px){
    header{      
       padding: 30px 0;
    }
@@ -34,8 +34,11 @@
 
    
 /* plaers area css start  */
+#player-sec{
+   background: #fff;
+}
 .players-area{
-   padding-top: 70px ;
+   padding-top: 40px ;
    padding-bottom: 35px;
 }
 .players{  
@@ -55,6 +58,10 @@
 }
 
 /* ------------news are -------------- */
+#news-sec {
+   background: #fff;
+   padding-bottom: 25px;
+}
 .news-area {
    padding: 15px 0;
 }
@@ -62,6 +69,7 @@
    margin: 8px 0;
    font-size: 20px;
    padding-bottom: 0;
+   color: #000000;
 }
 
 .latest-news{  
@@ -106,32 +114,104 @@
    font-size: 19px;
 }
 input {
-   width: 40%;
-   padding: 15px 10px;  
-  
+   text-align: center;
+   width: 70%;
+   padding: 15px 10px;
+   display: block;
+   margin-left: 12%;
 }
 .sub-btn {
-   width: 22%;   
+   width: 76%;
    font-size: 16px;
-  
+   margin-top: 20px;
 }
 /* --------footer area--------- */
-footer{   
-   padding-top:0;
+footer {
+   padding-top: 25px;
 }
-
-.socail-icon ul li a{  
-   display: block;
+.footer-top img {   
+   width: 350px;
+   height: auto;
+}
+.socail-icon ul li a {   
    height: 40px;
-   width: 40px;
-   line-height: 40px;   
-   font-size: 20px;  
-
+   width: 40px;  
+   font-size: 20px;
+   line-height: 40px;
+   
 }
 footer p{
    font-size: 16px;   
    padding-top: 10px;
-}   
-   
+}  
   
 }
+
+
+
+@media (min-width: 576px) and (max-width: 768px){
+
+   header{     
+      padding: 40px 0;
+   }
+   .header-title h1 {   
+      font-size: 33px;
+      margin-left: 20px;
+      
+  }
+  .header-title a {   
+   margin-left: 20px;
+}
+.players {   
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 20px;
+   padding: 0 10px;
+}
+.players-area {
+   padding-top: 40px;
+   padding-bottom: 25px;
+}
+
+
+.latest-news {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-column-gap: 30px;
+   grid-row-gap: 30px;
+   padding: 0 20px;
+}
+.news1 {
+
+   flex-direction: column;
+   padding-top: 30px;
+}
+.news1-info {
+   padding-top: 25px;
+   padding-left: 0px;
+}
+
+
+.subscribe-area {   
+   padding-top: 40px;
+   padding-bottom: 70px;
+}
+input {
+   width: 40%;   
+}
+.sub-btn {
+   width: 15%;   
+}
+.footer-top img {   
+   width: 350px;
+   height: auto;
+}
+.socail-icon ul li a {   
+   height: 40px;
+   width: 40px;  
+   font-size: 20px;
+   line-height: 40px;
+   
+}
+
+
+} 

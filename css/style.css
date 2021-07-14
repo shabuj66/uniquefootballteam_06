@@ -27,6 +27,41 @@ img{
    max-width: 100%;
 }
 
+.btn{
+   display: inline-block;
+   background: #e02c6d;
+   color: #fff;
+   font-size: 16px;
+   text-transform: capitalize;
+   padding: 10px 20px;
+   position: relative;
+   transition: 0.5s;  
+   position: relative;
+   transition: all 0.5s ease 0s;
+   
+
+}
+.btn::after{
+   background: #fff;
+   position: absolute;
+   content: "";
+   top: 0;
+   left: 0;
+   width: 0;
+   height: 100%;
+   transition: all 0.5s ease 0s;  
+   z-index: -1;
+   
+}
+.btn:hover{
+   z-index: 1;
+   color:#e02c6d;
+
+}
+.btn:hover::after{
+   width: 100%;
+}
+
 /* header css start */
 header{
    background-image: linear-gradient(to left bottom, #a02575, #8f2481, #79298d, #5a2f98, #2535a0);
@@ -45,31 +80,12 @@ header{
    font-weight: 600;
    text-transform: capitalize;
    letter-spacing: 1px;
-   line: height 1.7em;
+   line-height:1.3em;
 }
-.header-title a{
-   display: inline-block;
-   background: #e02c6d;
-   color: #fff;
-   font-size: 16px;
-   text-transform: capitalize;
-   padding: 10px 20px;
-   position: relative;
-   transition: 0.5s;  
-
-}
-.header-title a:hover {
-   background: #fff;
-   color: #e02c6d;   
-}
-
 
 .header-img {
    width: 50%;  
    margin-left: 10%;
-}
-.header-img img{
-   max-width: 100%;
 }
 /* header css ends */
 
@@ -135,8 +151,8 @@ header{
    grid-row-gap: 40px;   
    
 }
-.news1-img img{
-   border-radius: 5px;
+.news1-img img{   
+   box-shadow: -13px 15px 0px 0px #fff;
    
 }
 .news1{
@@ -159,22 +175,7 @@ header{
    line-height: 21px;
    color: #ccc0b9;
 }
-.news1-info a {   
-   background: #e02c6d;
-   color: #fff;
-   font-size: 16px;
-   padding: 10px 20px;
-   text-transform: capitalize;
-   transition: 0.5s;
-}
-.news1-info a:hover{
-   background: #e02c6d;
-   color: #fff;
-}
 /* latest news css ends  */
-
-
-
 /* subscribe-area css start  */
 #sub-sec{
    background-image: linear-gradient(to left bottom, #a02575, #8f2481, #79298d, #5a2f98, #2535a0);
@@ -218,12 +219,10 @@ input {
    cursor: pointer;
    
 }
-
 /* subscribe-area css ends */
-
 /* footer css start  */
 footer{
-   text-align: center;
+     text-align: center;
    padding-top: 60px;
 }
 .footer-top img{
@@ -248,7 +247,6 @@ footer{
    font-size: 25px;  
    border-radius: 50%;
    transition: 0.5s;
-
 }
 .socail-icon ul li a:hover{
    background: #fff;
@@ -268,5 +266,5 @@ footer p{
 
 
 
-/* responsive css start  */
+
 
