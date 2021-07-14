@@ -143,7 +143,51 @@ header{
 
 
 
+/* footer css start  */
+footer{
+   text-align: center;
+   padding-top: 70px;
+}
+.footer-top{
 
+}
+.footer-top img{
+   max-width: 100%;
+}
+
+.socail-icon ul{   
+
+}
+.socail-icon ul li{
+   
+   margin-right: 20px ;
+
+}
+.socail-icon ul li a{  
+   display: block;
+   height: 50px;
+   width: 50px;
+   line-height: 50px;
+   background: #10437a; 
+   color: #fff;
+   font-size: 25px;  
+   border-radius: 50%;
+   transition: 0.5s;
+
+}
+.socail-icon ul li a:hover{
+   background: #fff;
+   color:#10437a ;
+   transform: rotate(720deg);
+}
+footer p{
+   font-size: 16px;
+   text-transform: capitalize;
+   font-weight: 500;
+   letter-spacing: 1px;
+   padding-top: 10px;
+}
+/* footer css ends  */
 
 /* responsive css start  */
 @media only screen and (max-width: 600px) {
