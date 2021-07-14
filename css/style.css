@@ -28,7 +28,107 @@ img{
 }
 
 /* header css start */
+header{
+   background: #2d25a0;
+   padding: 70px 0;
+}
+.header-area{
+   display: flex;  
+}
+.header-title{
+   width: 40%;
+   padding-top: 25px;
+}
+.header-title h1 {
+   color: #fff;
+   font-size: 47px;
+   font-weight: 600;
+   text-transform: capitalize;
+   letter-spacing: 1px;
+   line: height 1.7em;
+}
+.header-title a{
+   display: inline-block;
+   background: #e02c6d;
+   color: #fff;
+   font-size: 16px;
+   text-transform: capitalize;
+   padding: 10px 20px;
+   position: relative;
+   transition: 0.5s;  
+
+}
+.header-title a:hover {
+   background: #fff;
+   color: #e02c6d;   
+}
+/* .header-title a:hover i{ 
+   transition: 0.5s;   
+   margin-left: 10px;
+} */
+/* .header-title a::after{
+   position: absolute;
+   content: '';
+   background: #fff;
+   top: 0;
+   left: 0;
+   width: 0;
+   height: 100%;  
+   z-index: -1;
+   
+   transition: all 0.5s ease 0s;
+}
+.header-title a:hover{
+   color: #610b2a;
+}
+.header-title a:hover::after{
+   width: 100%;
+} */
+
+.header-img {
+   width: 50%;  
+   margin-left: 10%;
+}
+.header-img img{
+   max-width: 100%;
+}
 /* header css ends */
+
+/* plaers area css start  */
+.players-area{
+   padding-top: 70px ;
+   padding-bottom: 35px;
+
+}
+.players{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 30px;
+}
+.player {
+   background: #fff;
+   box-shadow: 1px 1px 9px 1px rgb(84 107 45 / 45%);
+   padding: 10px;
+   border-radius: 5px;
+}
+.player img{
+   max-width: 100%;
+
+}
+.player-title{
+   font-size: 24px;
+   text-transform: capitalize;
+   font-weight: 600;
+   margin-top: 5px;
+   
+}
+
+.player p{
+   font-size: 14px;
+   line-height: 1.7em;
+   color: rgb(199, 193, 193);
+
+}
 
 
 
